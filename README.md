@@ -8,6 +8,8 @@
 * Pugjs
 * Express
 
+### Images
+
 ### Set Up
 * npm i express
 * npm i pug

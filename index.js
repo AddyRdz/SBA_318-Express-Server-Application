@@ -11,7 +11,7 @@ app.set('views', './views');
 
 
 // middleware
-// app.use(express.static('public'));
+app.use(express.static('public'));
 // app.use(morgan('dev')); //logger
 
 // routes

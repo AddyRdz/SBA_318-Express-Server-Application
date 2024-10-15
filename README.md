@@ -9,6 +9,9 @@
 * Express
 
 ### Images
+<img src= "https://github.com/AddyRdz/SBA_318-Express-Server-Application/blob/main/public/images/Screenshot%202024-10-14%20at%2010.29.10%E2%80%AFPM.png?raw=true">
+<img src="https://github.com/AddyRdz/SBA_318-Express-Server-Application/blob/main/public/images/Screenshot%202024-10-14%20at%2010.29.19%E2%80%AFPM.png?raw=true">
+<img src="https://github.com/AddyRdz/SBA_318-Express-Server-Application/blob/main/public/images/Screenshot%202024-10-14%20at%2010.29.27%E2%80%AFPM.png?raw=true">
 
 ### Set Up
 * npm i express

@@ -9,3 +9,15 @@ html
      a(href='/posts') Posts
      a(href='/comments') Comments
      p='Welcome to MySpace, a social networking site.'
+     form(action="/submit" method="POST")
+      div
+        label(for="username") Username:
+        input(type="text" id="username" name="username" required)
+      div
+        label(for="email") Email:
+        input(type="email" id="email" name="email" required)
+      div
+        label(for="password") Password:
+        input(type="password" id="password" name="password" required)
+     div
+        input(type="submit" value="Submit")   

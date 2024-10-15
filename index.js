@@ -20,15 +20,27 @@ app.get('/', (req,res) => {
 })
 
 app.get('/users', (req,res) => {
-    res.send('Getting users')
+    res.render('users')
+})
+
+app.post('/users', (req,res) => {
+    res.send('post user data')
+})
+
+app.put('/users', (req,res) => {
+    res.send('edit user data')
+})
+
+app.delete('/users', (req,res) => {
+    res.send('delete user data')
 })
 
 app.get('/posts', (req,res) => {
-    res.send('Getting posts')
+    res.render('posts')
 })
 
 app.get('/comments', (req,res) => {
-    res.send('Getting comments')
+    res.render('comments')
 })
 
 app.listen(PORT, () => {
